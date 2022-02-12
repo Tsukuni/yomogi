@@ -58,7 +58,6 @@ const Home: NextPage = () => {
             />
             <Avatar
               size='2xl'
-              name='yomogi'
               src='/icon2.jpg'
               showBorder
               borderColor='#045762'
@@ -67,7 +66,8 @@ const Home: NextPage = () => {
               bottom='-60px'
               borderWidth='5px'
               quality={70}
-              priority
+              priority='true'
+              loading='eager'
             />
           </Box>
           <Box margin='16px' marginTop='64px'>
